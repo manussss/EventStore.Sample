@@ -3,8 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35506.116 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C9D2B5A5-5714-459A-A7B1-1B5C81440A38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{C4EE4AFF-A429-400B-A4B4-76A36BD57D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStore.Sample.API", "src\EventStore.Sample.API\EventStore.Sample.API.csproj", "{159E7930-4052-43CD-B47F-85B06C0341A6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{159E7930-4052-43CD-B47F-85B06C0341A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159E7930-4052-43CD-B47F-85B06C0341A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159E7930-4052-43CD-B47F-85B06C0341A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159E7930-4052-43CD-B47F-85B06C0341A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{159E7930-4052-43CD-B47F-85B06C0341A6} = {C9D2B5A5-5714-459A-A7B1-1B5C81440A38}
 	EndGlobalSection
 EndGlobal
